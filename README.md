@@ -11,7 +11,7 @@ This is my Portfolio Site.
 
 ## Installation
 
-To run this project locally run
+To run this project locally 
 
 ```bash
   git clone https://github.com/soham-shee/soham-shee.github.io.git
