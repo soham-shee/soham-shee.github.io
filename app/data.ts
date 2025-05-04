@@ -2,7 +2,7 @@ type Project = {
   name: string
   description: string
   link: string
-  video: string
+  image: string // changed from video
   id: string
 }
 
@@ -29,21 +29,18 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
-    description:
-      'Advanced components and templates to craft beautiful websites.',
+    name: 'GRU Based Load Forecasting',
+    description: 'A deep dive into the GRU model for load forecasting (Tensorflow + Streamlit)',
     link: 'https://pro.motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
-    id: 'project1',
+    image: 'https://www.bigventus.com/images/services/8654315024-330-services_5.png',
+    id: 'project1', // Unique ID
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
+    name: 'Drug Toxicity Prediction',
+    description: 'Drug toxicity prediction using machine learning (NextJS +FastAPI)',
     link: 'https://motion-primitives.com/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project2',
+    image: 'https://static01.nyt.com/images/2019/02/08/upshot/08up-drugs/merlin_150027816_ada96df5-9315-43d3-a8ad-b41f9f5416d0-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
+    id: 'project2', // Unique ID
   },
 ]
 
