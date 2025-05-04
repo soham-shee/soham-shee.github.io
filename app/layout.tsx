@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: 'Soham Shee | Portfolio',
   description:
     'Aspiring Software Engineer',
+  icons:{
+      icon: '/favicon.ico', // or '/favicon.png'
+      apple: '/favicon.ico',
+    },
 }
 
 const geist = Geist({
@@ -36,10 +40,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <Head>
-      <link rel="icon" href="/a.jpeg" />
-      <link rel="apple-touch-icon" sizes="180x180" href="/a.jpeg" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/a.jpeg" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/a.jpeg" />
+      <link rel="icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
       </Head>
       <body
         className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased dark:bg-zinc-950`}

@@ -31,14 +31,14 @@ export const PROJECTS: Project[] = [
   {
     name: 'GRU Based Load Forecasting',
     description: 'A deep dive into the GRU model for load forecasting (Tensorflow + Streamlit)',
-    link: 'https://pro.motion-primitives.com/',
+    link: 'https://github.com/soham-shee/LoadLens',
     image: 'https://www.bigventus.com/images/services/8654315024-330-services_5.png',
     id: 'project1', // Unique ID
   },
   {
     name: 'Drug Toxicity Prediction',
-    description: 'Drug toxicity prediction using machine learning (NextJS +FastAPI)',
-    link: 'https://motion-primitives.com/',
+    description: 'Drug toxicity prediction using machine learning (NextJS + FastAPI)',
+    link: 'https://github.com/soham-shee/Drug-Toxicity-Predictor-Frontend',
     image: 'https://static01.nyt.com/images/2019/02/08/upshot/08up-drugs/merlin_150027816_ada96df5-9315-43d3-a8ad-b41f9f5416d0-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
     id: 'project2', // Unique ID
   },
