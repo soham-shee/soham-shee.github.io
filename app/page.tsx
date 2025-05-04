@@ -136,8 +136,12 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
         <div className="flex-1">
-          <p className="text-zinc-600 dark:text-zinc-400">
-          Hello there 👋 ! I'm Soham Shee, a final-year engineering student at NIT Warangal, India, with a passion for crafting innovative solutions and mastering the art of software development. Currently, I am honing my skills in the dynamic world of web development, specializing in React Js, Python.
+          <p className="text-zinc-600 dark:text-zinc-300">
+          Hey there 👋 I'm <a className='underline decoration-dotted decoration-[0.1rem] decoration-zinc-400 font-bold ' href='/resume.pdf' target="_blank">Soham Shee</a>, a Final-year engineering student at NIT Warangal, India<br></br>
+          I’m a passionate builder who thrives on turning ideas into impactful digital experiences. With a strong foundation in React.js and Python, I’m currently diving deep into the world of web development — crafting sleek UIs, writing clean backend logic, and always looking to push the boundaries of what I can create.
+          <br></br>
+          Whether it’s a new project, an open-source contribution, or a technical challenge, I love solving problems with code and learning something new every day.<br></br>
+          Let’s build something awesome together.
           </p>
         </div>
       </motion.section>

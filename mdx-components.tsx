@@ -19,5 +19,12 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         </figure>
       )
     },
+    PublishDate: ({ date }: { date: string }) => {
+      return (
+        <p className="text-sm text-gray-500">
+          Last updated: {new Date(date).toLocaleDateString()}
+        </p>
+      )
+    },
   }
 }
