@@ -46,12 +46,20 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
+    company: 'ICICI Life Insurance',
+    title: 'Software Engineer',
+    start: 'Jul 2026',
+    end: 'Present',
+    link: 'https://www.kaggle.com/code/sohamshee/gru-model-load-forecasting',
+    id: 'work1',
+  },
+  {
     company: 'NIT Warangal',
     title: 'Summer Intern',
     start: 'May 2024',
     end: 'July 2024',
     link: 'https://www.kaggle.com/code/sohamshee/gru-model-load-forecasting',
-    id: 'work1',
+    id: 'work2',
   },
   // {
   //   company: 'Freelance',
@@ -113,4 +121,4 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
 ]
 
-export const EMAIL = 'ss22eeb0a59@student.nitw.ac.in'
+export const EMAIL = 'hi@sohamshee.in'
